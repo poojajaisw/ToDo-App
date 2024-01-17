@@ -1,0 +1,92 @@
+* {
+     margin: 0;
+     padding: 0;
+}
+
+body {
+     
+         background-image: url("https://cdn.pixabay.com/photo/2018/02/12/09/00/the-market-3147758_960_720.jpg");
+         background-size: cover;
+         height: 90vh;
+
+}
+
+h1{
+     font-size: 15vmin;
+     text-align: center;
+     color : rgb(10, 10, 10,0.5);
+}
+
+.container {
+              background-color: rgba(245, 247, 237, 0.3);
+
+              width: 23%;
+              height: 50vh;
+              text-align: center;
+              justify-content: center;
+              margin-left: 35%;
+              margin-top: 5%;
+              border-radius: 1rem;
+              box-shadow: 0 0 10px rgba(147, 234, 234, 0.1); /* Example box shadow, adjust as needed */
+              transition: border 0.10s ease-in-out; /* Apply the transition effect to the border property */
+}
+
+h3{
+       margin-top: 2%;
+       font-size: 5vmin;
+       color : rgb(17, 16, 16 0.4);
+}
+
+#inp{
+        padding: 15px;
+        width: 70%;
+        border-radius: 1rem;
+        margin-top: 3%;
+        margin: left;
+        border: none;
+        background-color: rgba(245, 247, 237, 0.3);
+        color:rgb(10, 10, 10)
+}
+
+#int:hover{
+            background-color: rgb(67, 97, 95);
+}
+
+.btn{
+          width: 7vmin;
+          height: 7vmin;
+          border-radius: 50%;
+          font-size: 2vmin;
+          box-shadow: rgba(54, 168, 202, 0.3);
+          background-color: rgba(245, 247, 237, 0.3);
+          border: none;
+          cursor: pointer;
+}
+
+.text ul{
+            position: relative;
+            background-color: rgba(245, 247, 237, 0.3);
+            color: rgb(10, 10, 10);
+            font-size: 12px;
+            text-align: left;
+            width: 70%;
+            padding: 8px;
+            border-radius: 0.5rem;
+            margin-top: 2%;
+            margin-left: 3%;
+}
+
+.text ul i{
+             position: absolute;
+             right: 10px;
+             cursor: pointer;
+             
+}
+
+.text ul :hover {
+    background-color: red;
+}
+
+ 
+
+
